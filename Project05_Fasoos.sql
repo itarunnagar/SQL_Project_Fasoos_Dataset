@@ -5,7 +5,7 @@ use Project05_Fasoos ;
 
 --Create Table..
 drop table if exists driver;
-CREATE TABLE driver(driver_id integer,reg_date date); 
+CREATE TABLE driver(driver_id integer,reg_date date) ; 
 
 INSERT INTO driver(driver_id,reg_date) 
  VALUES (1,'01-01-2021'),
